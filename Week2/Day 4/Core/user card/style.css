@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.profile {
+    width: 600px;
+    height: 400px;
+}
+.image1 {
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.image2 {
+    width: 15px;
+}
+#colorgreen {
+    background-color: rgb(47, 232, 47);
+    width: 608px;
+    height: 80px;
+    
+}
+.white0 {
+    width: 580px;
+    height: 160px;
+    border: 4px solid gray;
+    padding-top: 60px;
+    padding-left: 20px;
+}

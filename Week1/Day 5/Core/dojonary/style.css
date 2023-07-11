@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+}
+.gray {
+    background-color: rgb(190, 189, 189);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    height: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+.input {
+    width: 400px;
+    height: 20px;
+}
+.bnt0 {
+    background-color: blue;
+    width: 70px;
+    height: 30px;
+    color: #ffffff;
+    box-shadow: 3px 3px black;
+}
+main {
+    display: flex; 
+    justify-content: center;
+    
+}
+.object1 {
+    display: flex;
+    flex-direction: column;
+
+}
+.window1 {
+    border: 2px solid black;
+    height: 150px;
+    width: 500px;
+    padding: 10px;
+    padding-right: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.para {
+    width: 300px ;
+    height: 150px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+.bnt1 {
+    width: 80px;
+    height: 40px;
+    background-color: orange;
+    box-shadow: 2px 2px black;
+}
+a {
+    color: deepskyblue;
+}
+.window2{
+    border: 2px solid black;
+    width: 500px;
+    height: 150px;
+    padding: 10px;
+    padding-right: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+.para1 {
+    width: 300px ;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.window3 {
+    border: 2px solid black;
+    width: 300px;
+    height: 120px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+}
+.btt {
+    width: 300px;
+    height: 40px;
+    background-color: green;
+    box-shadow: 2px 2px black;
+    font-size: large;
+}
+.style {
+    font-size: xx-large;
+}

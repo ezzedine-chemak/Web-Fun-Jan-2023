@@ -1,0 +1,42 @@
+.nav {
+    padding-left: 20px;
+    background-color: rgba(0, 0, 0, 0.689);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    font-size: 20px;
+    
+}
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+    margin-right: 20px;
+    
+}
+.btn{
+    color: white;
+    background-color: aqua;
+    width: 100px;
+    height: 30px;
+    box-shadow: 4px 4px black;
+    font-weight: bold ;
+
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+    
+}
+.active{
+    font-weight: bold ;
+}
+li{
+    list-style-type: none;
+}

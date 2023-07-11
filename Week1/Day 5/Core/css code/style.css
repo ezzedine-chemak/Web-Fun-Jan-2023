@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.all {
+    width: 600px;
+    height: 300px;
+    border: 2px solid gray;
+    margin: 30px;
+}
+#image {
+    height: 100px;
+    margin: 20px;
+    
+}#photo {
+    height: 20px;
+}
+.color {
+    background-color: aquamarine;
+    width: 600px;
+    height: 75px;
+}
+.it{
+    margin: 20px;
+    margin-top: 50px;
+}
+a{
+    color: aquamarine;
+}
+.p{
+    margin-top: 10px;
+}
+.b{
+    margin-top: 10px;
+}
+.v{
+    margin-top: 10px;
+}
