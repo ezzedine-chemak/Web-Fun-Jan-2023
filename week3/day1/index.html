@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav">
+        <div class="nav-bleu">
+            <h1>DojoWeather</h1>
+            <div>
+                <ul class="list">
+                    <li ><a id="deco" href="" onclick="city()">Burbank</a></li>
+                    <li ><a id="deco" href="" onclick="city()">Chicago</a></li>
+                    <li ><a id="deco" href="" onclick="city()">Dallas</a></li>
+                </ul>
+            </div>    
+        </div>
+    </div>
+    <main>
+        <div class="container">
+           <div class="bloc">
+            <div class="line" >
+                <h1>San Jose</h1>
+                <div class="input">
+                    <p>Show temperature in </p>
+                    <select name="temperature" onchange="convert(this)">
+                        <option value="°C">°C</option>
+                        <option value="°F">°F</option>
+                    </select>
+                </div>
+            </div>
+            <div class="linetwo"></div>
+            <div class="boxs">
+                <div class="box1" >
+                    <h2>Today</h2>
+                    <img class="img" src="image/some_rain.png" alt="">
+                    <p>some rain</p>
+                    <div class="value">
+                        <p class="red" id="temp1">24°</p>
+                        <p class="bleu" id="temp2">18°</p>
+                    </div>
+                </div>
+                <div class="box1" >
+                    <h2>Tomorrow</h2>
+                    <img class="img" src="image/some_sun.png" alt="">
+                    <p>some sun</p>
+                    <div class="value">
+                        <p class="red" id="temp3" >27°</p>
+                        <p class="bleu" id="temp4" >19°</p>
+                    </div>
+                </div>
+                <div class="box1" >
+                    <h2>Friday</h2>
+                    <img class="img" src="image/some_clouds.png" alt="">
+                    <p>some clouds</p>
+                    <div class="value">
+                        <p class="red" id="temp5" >21°</p>
+                        <p class="bleu" id="temp6" >16°</p>
+                    </div>
+                </div>
+                <div class="box1" >
+                    <h2>Today</h2>
+                    <img class="img" src="image/some_sun.png" alt="">
+                    <p>some sun</p>
+                    <div class="value">
+                        <p class="red" id="temp7" >26°</p>
+                        <p class="bleu" id="temp8" >11°</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cookie">
+                <img class="img" src="image/cookie.png" alt="">
+                <div class="text">
+                    <h2>Stop! Cookie time</h2>
+                    <p class="para">we use cookies (sadly not the edibleones) to personalize content and ads, to provide social media features and to analuse our traffic. <a class="read" href="">Read more...</a></p>
+                </div>
+                <button onclick="remoove(this)" class="btn">I Accept</button>
+            </div>
+           </div>
+        </div>
+    </main>
+    <script  src="script.js"></script>
+</body>
+</html>
